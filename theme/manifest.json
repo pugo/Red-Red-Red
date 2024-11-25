@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Red-red-red!",
+  "description": "A red red theme",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "theme": {
+    "images" : {
+      "theme_ntp_background": "images/background.png"
+    },
+    "colors" : {
+      "frame" : [100, 0, 0],
+      "frame_inactive" : [80, 0, 0],
+      "frame_incognito" : [100, 0, 100],
+      "frame_incognito_inactive" : [80, 0, 80],
+      "toolbar" : [180, 0, 0],
+      "toolbar_button_icon": [255, 255, 255],
+      "toolbar_text": [255, 255, 255],
+      "ntp_background" : [160, 0, 0],
+      "ntp_text" : [255, 255, 255],
+      "ntp_link" : [255, 255, 0],
+      "ntp_header" : [0, 255, 0],
+      "ntp_section" : [0, 221, 192],
+      "button_background" : [255, 255, 255],
+      "bookmark_text" : [255, 255, 255],
+      "omnibox_background": [120, 0, 0],
+      "omnibox_text": [255, 255, 255]
+    },
+    "tints" : {
+      "buttons" : [0.33, 0.5, 0.47]
+    },
+    "properties" : {
+      "ntp_background_alignment" : "bottom"
+    }
+  }
+}
